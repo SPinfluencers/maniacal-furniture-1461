@@ -10,8 +10,14 @@ import {
     useDisclosure,
     Button,
     Input,
+    Heading,
+    Box,
+    Spacer,
   } from '@chakra-ui/react'
 import DrawerLogo from '../Common/Logo/DrawerLogo'
+import List_1 from './DrawerMenuList/List_1'
+import List_2 from './DrawerMenuList/List_2'
+import ContactUs from '../Footer/ContactUs'
 
   function DrawerMenu() {
     const { isOpen, onOpen, onClose } = useDisclosure()
@@ -22,7 +28,7 @@ import DrawerLogo from '../Common/Logo/DrawerLogo'
         <Button marginTop='20px' backgroundColor='rgb(0,139,206)' ref={btnRef} onClick={onOpen}>
         <DrawerLogo/>
         </Button>
-        <Drawer
+        <Drawer backgroundColor='gray.200'
           isOpen={isOpen}
           placement='left'
           onClose={onClose}
@@ -30,19 +36,38 @@ import DrawerLogo from '../Common/Logo/DrawerLogo'
         >
           <DrawerOverlay />
           <DrawerContent>
-            <DrawerCloseButton />
-            <DrawerHeader>Create your account</DrawerHeader>
-  
-            <DrawerBody>
+            <DrawerCloseButton color='white' />
+            
+            <Box border='1px solid none' padding='2%' backgroundColor='rgb(0,142,204)'>
+            <Heading color='white' padding='5%' as='h6' size='xs'>Hello, Sign in</Heading>
+            <Box>
+              <Button 
+              color='white' 
+              backgroundColor='rgb(0,142,204)' 
+              border='1px solid white' 
+              width='150px'
+              borderRadius='none'
+              marginRight='5px'
+              >Account</Button>
+              <Button
+               color='white' 
+               backgroundColor='rgb(0,142,204)' 
+               border='1px solid white' 
+               width='150px'
+               borderRadius='none'
+              >Orders</Button>
+            </Box>
+            </Box>
+            
+            {/* <DrawerBody>
               <Input placeholder='Type here...' />
-            </DrawerBody>
-  
-            <DrawerFooter>
-              <Button variant='outline' mr={3} onClick={onClose}>
-                Cancel
-              </Button>
-              <Button colorScheme='blue'>Save</Button>
-            </DrawerFooter>
+            </DrawerBody> */}
+            <Box backgroundColor='gray'>
+            <List_1/>
+            <List_2/>
+            </Box>
+           
+            {/* <ContactUs /> */}
           </DrawerContent>
         </Drawer>
       </>
