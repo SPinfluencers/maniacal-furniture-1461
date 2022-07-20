@@ -4,6 +4,7 @@ import Cart from '../Pages/Cart'
 import Home from '../Pages/Home'
 import Signin from '../Pages/Signin'
 
+
 const AllRoutes = () => {
   return (
     <div>
