@@ -9,7 +9,6 @@ const SearchBar = () => {
       marginTop='18px' 
       width='600px' 
       placeholder='Search essentials, groceries, and more...                                                             🔍' 
-      
       ></Input>     
     </div>
   )
