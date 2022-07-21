@@ -9,7 +9,7 @@ const Home = () => {
     <div className='home'>
         <Slider_1 />
         <Advertisement />
-        {/* <ShopFromTop/> */}
+        <ShopFromTop />
     </div>
   )
 }
