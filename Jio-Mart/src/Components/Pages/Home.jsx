@@ -1,6 +1,8 @@
 import React from 'react'
 import Advertisement from '../Landing page/Advertisement'
 import Advertisement_1 from '../Landing page/Advertisement_1'
+import OffersOnDailyEssential from '../Landing page/OffersOnDailyEssential'
+import ShopBycategories from '../Landing page/ShopByCategories'
 import ShopFromTop from '../Landing page/ShopFromTop'
 import Slider_1 from '../Landing page/Slider_1'
 import Slider_2 from '../Landing page/Slider_2'
@@ -16,6 +18,8 @@ const Home = () => {
         <Advertisement_1 />
         <TopDeals />
         <Slider_2 />
+        <OffersOnDailyEssential />
+        <ShopBycategories />
     </div>
   )
 }
