@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, NavLink, Routes } from 'react-router-dom'
 import {
     Menu,
     MenuButton,
@@ -11,6 +12,7 @@ import {
     Button,
   } from '@chakra-ui/react'
   import { ChevronDownIcon } from '@chakra-ui/icons'
+import Mens from '../../Pages/Mens'
 
 const Fashion = () => {
   return (
@@ -20,10 +22,26 @@ const Fashion = () => {
            Fashion
          </MenuButton>
         <MenuList color='black' backgroundColor='rgb(236,236,237)'>
-            <MenuItem>Men</MenuItem>
-            <MenuItem>Women</MenuItem>
-            <MenuItem>Boys</MenuItem>
-            <MenuItem>Girls</MenuItem>
+          <MenuItem>
+            <NavLink to='/mens'>
+              Mens
+            </NavLink>    
+          </MenuItem>
+            <MenuItem>
+            <NavLink to='/womens'>
+              Womens
+            </NavLink> 
+            </MenuItem>
+            <MenuItem>
+            <NavLink to='/boys'>
+              Boys
+            </NavLink>  
+            </MenuItem>
+            <MenuItem>
+            <NavLink to='/girls'>
+              Girls
+            </NavLink> 
+            </MenuItem>
             <MenuItem>Infants</MenuItem>
         </MenuList>
     </Menu>
