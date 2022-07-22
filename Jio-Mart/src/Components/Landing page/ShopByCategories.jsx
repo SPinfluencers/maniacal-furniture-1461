@@ -1,4 +1,4 @@
-import { Button, Text } from '@chakra-ui/react'
+import { Button, Heading, Text } from '@chakra-ui/react'
 import React from 'react'
 import style from '../Styles/shopbycategories.css'
 import image1 from '../Others/shopbycategoriesImg/personal_care.png'
@@ -11,6 +11,8 @@ import image7 from '../Others/shopbycategoriesImg/vegitables.png'
 
 const TopDeals = () => {
   return (
+    <div>
+        <Heading textAlign='left'as='h4' size='md' marginBottom='20px' marginLeft='20px'>Shop From Top Categories</Heading>
     <div className='container-x'>
         <div className='products-x'>
             <div className='productImg1'> <img src={image1} alt="personal care" /> </div> 
@@ -56,6 +58,7 @@ const TopDeals = () => {
             <Text textAlign='center' fontSize='sm' fontWeight='bold'>Vegitables</Text>
             </div>
         </div>
+    </div>
     </div>
   )
 }

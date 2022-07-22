@@ -13,22 +13,22 @@ const OffersOnDailyEssential = () => {
     <div className='container-2'>
 
         <div className='items'>
-        <div style={{width:'200px' , height:'200px'}}><img src={image1} alt="dal and pulses" /></div>
+        <div style={{width:'200px' , height:'200px', margin:'auto'}}><img src={image1} alt="dal and pulses" /></div>
         <div><Text fontSize='xs' fontWeight='bold'>DAAL AND PULSES</Text></div>
          
         </div>
         <div className='items'>
-        <div style={{width:'200px' , height:'200px'}}><img src={image2} alt="dal and pulses" /></div>
+        <div style={{width:'200px' , height:'200px' , margin:'auto'}}><img src={image2} alt="dal and pulses" /></div>
         <div><Text fontSize='xs' fontWeight='bold'>DAAL AND PULSES</Text></div>
          
         </div>
         <div className='items'>
-        <img style={{width:'200px' , height:'200px'}} src={image3} alt="dal and pulses" />
+        <img style={{width:'200px' , height:'200px' , margin:'auto'}} src={image3} alt="dal and pulses" />
         <div><Text fontSize='xs' fontWeight='bold'>DAAL AND PULSES</Text></div>
          
         </div>
         <div className='items'>
-        <img style={{width:'200px' , height:'200px'}} src={image4} alt="dal and pulses" />
+        <img style={{width:'200px' , height:'200px' , margin:'auto'}} src={image4} alt="dal and pulses" />
         <div><Text fontSize='xs' fontWeight='bold'>DAAL AND PULSES</Text></div>
          
         </div>
@@ -36,22 +36,22 @@ const OffersOnDailyEssential = () => {
 
     <div className='container-2'>
         <div className='items'>
-        <div style={{width:'200px' , height:'200px'}}><img src={image1} alt="dal and pulses" /></div>
+        <div style={{width:'200px' , height:'200px' , margin:'auto'}}><img src={image1} alt="dal and pulses" /></div>
         <div><Text fontSize='xs' fontWeight='bold'>DAAL AND PULSES</Text></div>
         
         </div>
         <div className='items'>
-        <div style={{width:'200px' , height:'200px'}}><img src={image2} alt="dal and pulses" /></div>
+        <div style={{width:'200px' , height:'200px' , margin:'auto'}}><img src={image2} alt="dal and pulses" /></div>
         <div><Text fontSize='xs' fontWeight='bold'>DAAL AND PULSES</Text></div>
         
         </div>
         <div className='items'>
-        <img style={{width:'200px' , height:'200px'}} src={image3} alt="dal and pulses" />
+        <img style={{width:'200px' , height:'200px' , margin:'auto'}} src={image3} alt="dal and pulses" />
         <div><Text fontSize='xs' fontWeight='bold'>DAAL AND PULSES</Text></div>
         
         </div>
         <div className='items'>
-        <img style={{width:'200px' , height:'200px'}} src={image4} alt="dal and pulses" />
+        <img style={{width:'200px' , height:'200px' , margin:'auto'}} src={image4} alt="dal and pulses" />
         <div><Text fontSize='xs' fontWeight='bold'>DAAL AND PULSES</Text></div>
         
         </div>

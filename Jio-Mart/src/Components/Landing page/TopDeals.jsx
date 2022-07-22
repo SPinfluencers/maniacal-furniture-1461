@@ -1,9 +1,11 @@
-import { Button, Text } from '@chakra-ui/react'
+import { Button, Heading, Text } from '@chakra-ui/react'
 import React from 'react'
 import style from '../Styles/topdeals.css'
 
 const TopDeals = () => {
   return (
+    <div>
+    <Heading textAlign='left'as='h4' size='md' marginBottom='20px' marginLeft='20px'>Top Deals</Heading>
     <div className='container-1'>
         <div className='products-1'>
             <div className='productImg'> <img src="https://bit.ly/3RL1hKB" alt="jiomart umbrela" /> </div> 
@@ -89,6 +91,7 @@ const TopDeals = () => {
             </div>
             </div>
         </div>
+    </div>
     </div>
   )
 }
