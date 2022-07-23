@@ -18,6 +18,7 @@ import DrawerLogo from '../Common/Logo/DrawerLogo'
 import List_1 from './DrawerMenuList/List_1'
 import List_2 from './DrawerMenuList/List_2'
 import ContactUs from '../Footer/ContactUs'
+import { NavLink } from 'react-router-dom'
 
   function DrawerMenu() {
     const { isOpen, onOpen, onClose } = useDisclosure()
@@ -48,14 +49,15 @@ import ContactUs from '../Footer/ContactUs'
               width='150px'
               borderRadius='none'
               marginRight='5px'
-              >Account</Button>
+              ><NavLink to='/signin'>Account</NavLink></Button>
+
               <Button
                color='white' 
                backgroundColor='rgb(0,142,204)' 
                border='1px solid white' 
                width='150px'
                borderRadius='none'
-              >Orders</Button>
+              ><NavLink to='/cart'>Orders</NavLink></Button>
             </Box>
             </Box>
             
