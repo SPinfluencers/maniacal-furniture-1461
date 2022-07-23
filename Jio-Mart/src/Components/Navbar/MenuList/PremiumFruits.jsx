@@ -11,6 +11,7 @@ import {
     Button,
   } from '@chakra-ui/react'
   import { ChevronDownIcon } from '@chakra-ui/icons'
+import { NavLink } from 'react-router-dom'
 
 const PremiumFruits= () => {
   return (
@@ -20,8 +21,12 @@ const PremiumFruits= () => {
            Premium Fruits
          </MenuButton>
         <MenuList color='black' backgroundColor='rgb(236,236,237)'>
-            <MenuItem>Avocado, Peach, plumm</MenuItem>
-            <MenuItem>Cherries, Berries & Exotic Fruits</MenuItem>
+            <MenuItem>
+              <NavLink to='avocado...'>Avocado, Peach, plumm</NavLink>
+            </MenuItem>
+            <MenuItem>
+            <NavLink to='cherries...'>Cherries, Berries & Exotic Fruits</NavLink>
+            </MenuItem>
             <MenuItem>Pomegranate, papaya & Pineapples Dats</MenuItem>
             <MenuItem>Citrus, Mango, & Graps</MenuItem>
             <MenuItem>Snacks & Branded Food</MenuItem>

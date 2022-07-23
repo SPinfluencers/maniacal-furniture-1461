@@ -11,6 +11,7 @@ import {
     Button,
   } from '@chakra-ui/react'
   import { ChevronDownIcon } from '@chakra-ui/icons'
+import { NavLink } from 'react-router-dom'
 
 const Beauty = () => {
   return (
@@ -20,8 +21,15 @@ const Beauty = () => {
          Beauty
          </MenuButton>
         <MenuList color='black' backgroundColor='rgb(236,236,237)'>
-            <MenuItem>Make-Up</MenuItem>
-            <MenuItem>Hair</MenuItem>
+
+            <MenuItem>
+              <NavLink to='/makeup'>Make-Up</NavLink>
+            </MenuItem>
+
+            <MenuItem>
+              <NavLink to='/hair'>Hair</NavLink>
+            </MenuItem>
+
             <MenuItem>Skin Care</MenuItem>
             <MenuItem>Fragrances</MenuItem>
             <MenuItem>Personal Care</MenuItem>
