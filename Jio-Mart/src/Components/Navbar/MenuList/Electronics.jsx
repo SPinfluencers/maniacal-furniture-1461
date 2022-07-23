@@ -11,6 +11,7 @@ import {
     Button,
   } from '@chakra-ui/react'
   import { ChevronDownIcon } from '@chakra-ui/icons'
+import { NavLink } from 'react-router-dom'
 
 const Electronics = () => {
   return (
@@ -20,8 +21,14 @@ const Electronics = () => {
          Electronics
          </MenuButton>
         <MenuList color='black' backgroundColor='rgb(236,236,237)'>
-            <MenuItem>Mobile & Tablets</MenuItem>
-            <MenuItem>TV & Speaker</MenuItem>
+            <MenuItem>
+              <NavLink to='/mobiletablets'>Mobile & Tablets</NavLink>
+          </MenuItem>
+
+            <MenuItem>
+               <NavLink to='/tvspeakers'>TV & Speaker</NavLink>
+            </MenuItem>
+
             <MenuItem>Home Appliances</MenuItem>
             <MenuItem>Computers</MenuItem>
             <MenuItem>Cameras</MenuItem>
