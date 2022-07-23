@@ -2,8 +2,8 @@ import React from 'react'
 
 const MakeUp = () => {
   return (
-    <div>
-        <h1>MakeUp</h1>
+    <div style={{padding:'2%'}}>
+        <img width='100%' src="https://bit.ly/3zoZsvv" alt="make up" />
     </div>
   )
 }

@@ -2,8 +2,8 @@ import React from 'react'
 
 const KitchWare = () => {
   return (
-    <div>
-        <h1>KitchenWare</h1>
+    <div style={{padding:'2%'}}>
+        <img width='100%' src="https://bit.ly/3S0Gxi6" alt="kitchenware" />
     </div>
   )
 }
