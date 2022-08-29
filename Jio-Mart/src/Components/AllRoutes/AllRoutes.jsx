@@ -15,7 +15,7 @@ import KitchWare from '../Pages/Home&Kitchen/KitchWare'
 import Avocado from '../Pages/PremiumFruits/Avocado'
 import Cherries from '../Pages/PremiumFruits/Cherries'
 import Signin from '../Pages/Signin'
-
+import Signup from '../Pages/Signup'
 
 const AllRoutes = () => {
   return (
@@ -23,6 +23,7 @@ const AllRoutes = () => {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/signin' element={<Signin />} />
+          <Route path='/signin/:signup' element={<Signup />} />
           <Route path='/cart' element={<Cart />} />
           <Route path='/fruits&vegitables' element={<Fruits_Vegitables />} />
           <Route path='/premiumfruits' element={<PremiumFruits />} />

@@ -1,6 +1,8 @@
 import { Button, Heading, Input, InputGroup, InputLeftAddon, Stack, Text } from '@chakra-ui/react'
 import React from 'react'
+import { Link } from 'react-router-dom'
 import style from '../Styles/signin.css'
+
 
 const Signin = () => {
   return (
@@ -20,7 +22,13 @@ const Signin = () => {
                <Input type='tel' placeholder='phone number' />
             </InputGroup>
             <br />
-            <Button color='white' bgColor='rgb(0,142,204)' borderRadius='50%' marginLeft='200px'>➭</Button>
+            <Link to={`/signin/signup`}><Button 
+              color='white' 
+              bgColor='rgb(0,142,204)' 
+              borderRadius='50%' 
+              marginLeft='200px'
+              >➭</Button>
+              </Link>
         </div>
        </div>
     </div>
