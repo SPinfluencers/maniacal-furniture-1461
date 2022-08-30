@@ -12,6 +12,7 @@ import PremiumFruits from '../Pages/Groceries/PremiumFruits'
 import Home from '../Pages/Home'
 import Dining from '../Pages/Home&Kitchen/Dining'
 import KitchWare from '../Pages/Home&Kitchen/KitchWare'
+import MyAccount from '../Pages/MyAccount'
 import Avocado from '../Pages/PremiumFruits/Avocado'
 import Cherries from '../Pages/PremiumFruits/Cherries'
 import Signin from '../Pages/Signin'
@@ -23,7 +24,8 @@ const AllRoutes = () => {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/signin' element={<Signin />} />
-          <Route path='/signin/:signup' element={<Signup />} />
+          <Route path='/signup' element={<Signup />} />
+          <Route path='/account' element={<MyAccount />} />
           <Route path='/cart' element={<Cart />} />
           <Route path='/fruits&vegitables' element={<Fruits_Vegitables />} />
           <Route path='/premiumfruits' element={<PremiumFruits />} />

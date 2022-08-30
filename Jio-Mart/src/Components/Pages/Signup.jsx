@@ -1,6 +1,7 @@
 import { Button, Heading, Input, InputGroup, InputLeftAddon, Stack, Text, FormControl } from '@chakra-ui/react'
 import React from 'react'
 import style from '../Styles/signin.css'
+import { NavLink  } from 'react-router-dom'
 
 const Signup = () => {
 
@@ -104,6 +105,7 @@ const [value, setValue] = React.useState([])
               >Submit</Button>
          </FormControl> 
             <br />
+            <Text textAlign='center'>Already have an account? <span><NavLink to='/signin'>Signin</NavLink></span></Text>
         </div>
        </div>
     </div>
