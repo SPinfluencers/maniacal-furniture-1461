@@ -5,7 +5,7 @@ import 'react-slideshow-image/dist/styles.css'
 import style from '../Styles/slider.css'
 
 const images = [
-  "https://bit.ly/3PpUEf3",
+  // "https://bit.ly/3PpUEf3",
   "https://bit.ly/3omf3G2",
   "https://bit.ly/3OoalSw",
   "https://bit.ly/3ck9ZyY",

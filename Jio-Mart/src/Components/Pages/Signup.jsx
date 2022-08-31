@@ -1,4 +1,4 @@
-import { Button, Heading, Input, InputGroup, InputLeftAddon, Stack, Text, FormControl } from '@chakra-ui/react'
+import { Button, Heading, Input, InputGroup, InputLeftAddon, Stack, Text, FormControl, color } from '@chakra-ui/react'
 import React from 'react'
 import style from '../Styles/signin.css'
 import { NavLink  } from 'react-router-dom'
@@ -102,10 +102,11 @@ const [value, setValue] = React.useState([])
               paddingLeft='250px'
               paddingRight='250px'
               onClick={addData}
-              >Submit</Button>
+              >Sign up</Button>
          </FormControl> 
             <br />
-            <Text textAlign='center'>Already have an account? <span><NavLink to='/signin'>Signin</NavLink></span></Text>
+            <Text textAlign='center'>Already have an account? <span><NavLink style={{color:"blue"}} to='/signin'>Sign in</NavLink></span></Text>
+            <br />
         </div>
        </div>
     </div>

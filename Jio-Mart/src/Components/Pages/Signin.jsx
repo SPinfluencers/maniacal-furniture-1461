@@ -108,7 +108,7 @@ const Signin = () => {
               </Button>
             </FormControl>
             <br /><br />
-            <Text textAlign='center'>Don't have an account? <span><NavLink to='/signup'>Signup</NavLink></span></Text>
+            <Text textAlign='center'>Don't have an account? <span><NavLink style={{color:"blue"}} to='/signup'>Sign up</NavLink></span></Text>
         </div> 
        </div>
     </div>
