@@ -1,9 +1,11 @@
 import { Button, Heading, Input, InputGroup, InputLeftAddon, Stack, Text, FormControl, color } from '@chakra-ui/react'
 import React from 'react'
 import style from '../Styles/signin.css'
-import { NavLink  } from 'react-router-dom'
+import { useNavigate , NavLink } from 'react-router-dom'
 
 const Signup = () => {
+
+   let navigate = useNavigate()
 
    const [data, setData] = React.useState({
       firstName: '',
@@ -12,6 +14,7 @@ const Signup = () => {
       password: ''
    })
 // console.log(data)
+
 const [value, setValue] = React.useState([])
 
    const getData = (e) => {
@@ -43,6 +46,8 @@ const [value, setValue] = React.useState([])
      }
      else {
        localStorage.setItem('userData', JSON.stringify([...value, data]))
+       alert("Sign up successful")
+       navigate('/signin')
      }
    }
 
@@ -63,7 +68,7 @@ const [value, setValue] = React.useState([])
                <Input 
                 onChange={getData} 
                 padding='4%' 
-                placeholder='Your First Number' 
+                placeholder='Your First Name' 
                 name='firstName' 
                 />
             </InputGroup>
@@ -72,7 +77,7 @@ const [value, setValue] = React.useState([])
                <Input 
                 onChange={getData} 
                 padding='4%' 
-                placeholder='Your Last Number' 
+                placeholder='Your Last Name' 
                 name='lastName'
                 />
             </InputGroup>
@@ -114,3 +119,6 @@ const [value, setValue] = React.useState([])
 }
 
 export default Signup
+
+
+{/*  */}

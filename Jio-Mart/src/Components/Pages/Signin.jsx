@@ -6,7 +6,7 @@ import { useNavigate  } from 'react-router-dom'
 
 const Signin = () => {
  
-  const history = useNavigate()
+  let navigate = useNavigate()
   
   const [data, setData] = React.useState({
     email: '',
@@ -55,8 +55,8 @@ const Signin = () => {
           alert('invalide details')
         }
         else {
-          alert('user login sucessfully')
-          history("/account")
+          alert('login sucessfully')
+          navigate('/')
         }
       }
     }
