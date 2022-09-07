@@ -2,8 +2,8 @@ import React from 'react'
 
 const TvSpeaker = () => {
   return (
-    <div>
-        <h1>Tv Speaker</h1>
+    <div style={{padding:'2%'}}>
+        <img src="https://bit.ly/3BdrvPP" alt="tv and speaker" />
     </div>
   )
 }

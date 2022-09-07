@@ -2,8 +2,8 @@ import React from 'react'
 
 const Dining = () => {
   return (
-    <div>
-        <h1>Dining</h1>
+    <div style={{padding:'2%'}}>
+       <img src="https://bit.ly/3orGoGC" alt="dining" />
     </div>
   )
 }

@@ -5,7 +5,7 @@ import style from '../Styles/shopfromtop.css'
 const ShopFromTop = () => {
   return (
     <div>
-      <Heading textAlign='left'as='h4' size='md' marginBottom='20px' marginLeft='20px'>Shop From Top Categories</Heading>
+      <Heading textAlign='left'as='h4' size='md' marginBottom='20px' marginLeft='50px'>Shop From Top Categories</Heading>
     <div className='container'>
       <div className='products'>
         <img style={{border:'2px solid green'}} src="https://bit.ly/3PLAcVN" alt="fruits&veg" />

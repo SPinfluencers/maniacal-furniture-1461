@@ -2,6 +2,7 @@
     width: 100%;
     border: 1px solid none;
     display: flex;
+    justify-content: center;
 }
 .products {
     width: 200px;

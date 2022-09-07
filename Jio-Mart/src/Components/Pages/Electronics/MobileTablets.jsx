@@ -2,8 +2,8 @@ import React from 'react'
 
 const MobileTablets = () => {
   return (
-    <div>
-        <h1>Mobile Tablets</h1>
+    <div style={{padding:'2%'}}>
+        <img src="https://rocket.pk/media/catalog/category/MobilesnTablets_banner11-01.jpg" alt="mobile and tablet" />
     </div>
   )
 }
