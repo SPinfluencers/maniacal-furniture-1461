@@ -40,7 +40,7 @@ import { NavLink } from 'react-router-dom'
             <DrawerCloseButton color='white' />
             
             <Box border='1px solid none' padding='2%' backgroundColor='rgb(0,142,204)'>
-            <Heading color='white' padding='5%' as='h6' size='xs'>Hello, Sign in</Heading>
+            <Heading color='white' padding='5%' as='h6' size='xs'>Hello, <NavLink to='/signin'>Sign in</NavLink></Heading>
             <Box>
               <Button 
               color='white' 
