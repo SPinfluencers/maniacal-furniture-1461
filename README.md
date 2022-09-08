@@ -18,3 +18,13 @@ jio-mart is india's online shopping and grossary website to purchase material  C
 
   </tr>
 </table>
+
+## Functionalities
+
+- Landing Page .
+- Login/signup.
+- Product pages.
+- chakra ui.
+- Routing.
+
+## Images of Functionalities
