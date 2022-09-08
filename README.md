@@ -1,42 +1,15 @@
 #Tmetric Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Getting Started
 
-1. Fork this repository [https://github.com/ayaznoori/dazzling-measure-5625](https://github.com/ayaznoori/dazzling-measure-5625)
-2. Clone the Forked repository.
-   - **_Note_**: This Clone repository should be on your github account.
-3. navigate to the folder `dazzling-measure-5625`
-4. npm install
-5. npm start
 
 ## 🔗 Team Members
-    1. Mohammad Ayaz Noori (Team Lead)
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/ayaznoori)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammad-ayaz-noori-860321230/)
-    
-    2. Shashank kumar
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://shashankkumarportfolio.netlify.app/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shashank-kumar-83008122b/)
-    
-    3. Chetan Sharma
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://chetan-portfolio-1.netlify.app/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/feed/)
-
-    4. Shubham Kapoor
-
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](portfolio-link)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](linkedin-link)
 
     5. Sagar Pawar
 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](portfolio-link)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](linkedin-link)
-
-### Team Manager
-
-* Amaresh Barik
 
 ## The Journey:
 
