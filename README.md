@@ -27,4 +27,6 @@ jio-mart is india's online shopping and grossary website to purchase material  C
 - chakra ui.
 - Routing.
 
-## Images of Functionalities
+## Deployment Link
+
+- https://rococo-bublanina-66b2bf.netlify.app/
